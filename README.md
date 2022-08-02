@@ -1,6 +1,7 @@
 #Bioinformatics-data-analysis
 
-analysis pipeline of bioinformatics data
+notes: analysis pipeline of bioinformatics data
+
 
 #data download
 
