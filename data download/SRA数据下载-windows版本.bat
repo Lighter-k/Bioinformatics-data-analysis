@@ -7,4 +7,5 @@ CMD下载SRA数据
 2.通过cmd进入sratoolkit bin目录输入 "vdb-config --interactive"，安装过程中选择default即可
 3.prefetch 下载目标SAR数据
   prefetch -O dir_to_save --option-file SRR_Acc_List.txt
-4.fastq-dump -I --split-files SRR-file #这一步可以在服务器进行
+4.fastq-dump -I --split-files SRA-file #这一步可以在服务器进行
+fastq-dump --gzip SRA-files #单端测序
